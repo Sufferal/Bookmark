@@ -1,0 +1,17 @@
+@import "normalize.css";
+@import "fonts.css";
+
+:root {
+  --primary-color: #242582;
+  --secondary-color: #2f2fa2;
+  --text-color: #fff;
+
+  --font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+
+  font-family: var(--font-family);
+}
